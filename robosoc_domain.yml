@@ -1,0 +1,50 @@
+slots:
+  ipAddr:
+    type: text
+  emailAddr:
+    type: text
+  subscribe:
+    type: text
+  eventId:
+    type: text
+
+intents:
+ - greeting
+ - get_ip_reputation
+ - get_event_details
+ - subscription
+ - end_conversation
+
+
+entities:
+ - ipAddr
+ - emailAddr
+ - subscribe
+ - eventId
+ 
+
+templates:
+  utter_greet:
+    - "Hello! How can Robosoc can help you "
+  utter_ask_ip_addr:
+    - "Please tell me the IP?"
+  utter_ask_email:
+    - "What is your email?"
+  utter_subscribe:
+    - "Do you want to get the results in email?"
+  utter_reply:
+    - "We will keep you posted with results."
+  utter_good_bye:
+    - "Take care,good bye"
+  
+
+actions:
+ - utter_greet
+ - utter_ask_ip_addr
+ - utter_ask_email
+ - utter_subscribe
+ - utter_reply
+ - utter_good_bye
+ - get_ipaddr_reputation
+ - get_event_details
+ - subscribe_user

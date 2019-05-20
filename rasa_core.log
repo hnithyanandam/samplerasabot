@@ -1,0 +1,495 @@
+Rasa process starting
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'get_ipaddr_reputation'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'get_ipaddr_reputation' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration.https://rasa.com/docs/core/customactions.html
+Traceback (most recent call last):
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\rasa_core\processor.py", line 319, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\rasa_core\actions\action.py", line 306, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'get_ipaddr_reputation' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration.https://rasa.com/docs/core/customactions.html
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'get_event_details'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C84293BA8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Encountered an exception while running action 'get_event_details'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\urllib3\connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "c:\program files\python36\Lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "c:\program files\python36\Lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "c:\program files\python36\Lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "c:\program files\python36\Lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "c:\program files\python36\Lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000027C84293BA8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\requests\adapters.py", line 440, in send
+    timeout=timeout
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C84293BA8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\rasa_core\actions\action.py", line 312, in run
+    json=json, method="post", timeout=DEFAULT_REQUEST_TIMEOUT)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\rasa_core\utils.py", line 641, in request
+    **kwargs)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\requests\sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\requests\sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\requests\adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027C84293BA8>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\rasa_core\processor.py", line 319, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\rasa_core\actions\action.py", line 324, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\rasa_core\channels\channel.py", line 298, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\Hema\Envs\robobot\lib\site-packages\rasa_core\channels\channel.py", line 268, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\Hema\Envs\robobot\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
